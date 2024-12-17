@@ -4,12 +4,16 @@ import Footer from './component/Footer';
 import Header from './component/Header';
 function App() {
   const name = "징"
-  
+  const FooterProps = {
+    name: "징2",
+    location: "맹지",
+    favorList: ["밥", "파스타"]
+}
   return (
     <div className="App">
       <Header/>
       <Body name={name} location={"부산"}/>
-      <Footer/>
+      <Footer {...FooterProps}/>
     </div>
   );
 }

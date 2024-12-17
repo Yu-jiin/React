@@ -24,7 +24,7 @@ function Body(props) {
             <h3>a: {objA.a}</h3>
             <h3>b: {objA.b}</h3>
             <h2>
-                {num}은(는) {num % 2 == 0 ? "짝수" : "홀수"} 입니다.
+                {num}은(는) {num % 2 === 0 ? "짝수" : "홀수"} 입니다.
             </h2>
             <h1>{props.name}은 {props.location}에 거주합니다.</h1>
         </div>
