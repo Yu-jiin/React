@@ -3,10 +3,12 @@ import Body from './component/Body';
 import Footer from './component/Footer';
 import Header from './component/Header';
 function App() {
+  const name = "징"
+  
   return (
     <div className="App">
       <Header/>
-      <Body/>
+      <Body name={name} location={"부산"}/>
       <Footer/>
     </div>
   );
